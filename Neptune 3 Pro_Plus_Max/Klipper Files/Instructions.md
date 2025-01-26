@@ -7,7 +7,7 @@ The only things you should need to adjust are:
 
 the steps are well documented in the official Klipper documentation.
 
-#Functions:
+# Functions:
 - accessibility.cfg:
   - useful commands for a userfriendly experience.
  
