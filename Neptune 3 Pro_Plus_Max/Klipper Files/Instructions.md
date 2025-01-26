@@ -1,13 +1,14 @@
+## These config files are designed to be used with TheFeralEngineer's configs
 Upload them to your config and include them in your printer.cfg. 
 Either rename or delete already existing macros with the same name.
 The only things you should need to adjust are:
 
-- Bed_screw positions depending on your exact printer model
-- bed_mesh_min and bed_mesh_max depending on your exact printer model
+- screws_tilt_adjust positions depending on your exact printer model
+- delete or rename the existing pause and resume macros in TheFeralEngineer's configs
 
 the steps are well documented in the official Klipper documentation.
 
-# Functions:
+## Functions:
 - accessibility.cfg:
   - useful commands for a userfriendly experience.
  
@@ -22,6 +23,7 @@ the steps are well documented in the official Klipper documentation.
   - as the name indicates, macros for pause, resume and canceling the print
   - if you're using it with TheFeralEngineer's printer.cfg you would need to change/delete the already existing ones or just not use this configfile
 
+### Mods
 - clean_nozzle.cfg
   - a macro for nozzle cleaning using a brush that is mounted to the bed
   - parameters like the position of the brush need to be defined first (see diagramm at the top of the file)
