@@ -17,6 +17,10 @@ the steps are well documented in the official Klipper documentation.
     Here are some for the most common slicers:
 
     Prusa Slicer: START_PRINT EXTRUDER=[first_layer_temperature] BED=[first_layer_bed_temperature]
+
+- Adde the following to the machine end g-code:
+
+    END_PRINT
     
     
 ## Functions:
