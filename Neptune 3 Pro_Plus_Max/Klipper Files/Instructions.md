@@ -4,10 +4,21 @@ Either rename or delete already existing macros with the same name.
 The only things you should need to adjust are:
 
 - screws_tilt_adjust positions depending on your exact printer model
+  
 - delete or rename the existing pause and resume macros in TheFeralEngineer's configs
 
 the steps are well documented in the official Klipper documentation.
+  
+- Add the following to the machine start g-code:
+  
+    START_PRINT EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single]
+  
+    The variables in brackets may need to be changed depending on the slicer being used. The ones that are being used are for Orca Slicer.
+    Here are some for the most common slicers:
 
+    Prusa Slicer: START_PRINT EXTRUDER=[first_layer_temperature] BED=[first_layer_bed_temperature]
+    
+    
 ## Functions:
 - accessibility.cfg:
   - useful commands for a userfriendly experience.
